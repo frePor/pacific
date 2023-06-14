@@ -1,2 +1,4 @@
 # pacific
-Module 2 Assignment for SDEV 153 Web Site Development 
+"Web Development and Design Foundations with HTML5" by Terry Felke-Morris
+Chapter 2: Website Case Study "Pacific Trails Resort" page 60
+
