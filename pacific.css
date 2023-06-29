@@ -1,33 +1,65 @@
-body {
-  background-color: #90C7E3;
+  body {
+  background-color: #EAEAEA;
   color: #666666;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
-  background-repeat: no-repeat;
 }
 
-header {
+  header {
     background-color: #002171; /*002171*/
     color: #FFFFFF;
     font-family: Georgia, serif;
-    height: 72px;
+    height: 120px;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+  
+  header a:link,
+  header a:visited {
+    color: #FFFFFF;
+  }
+  
+  header a:hover {
+    color: #90C7E3;
   }
 
   h1 {
     background-color: #002171;
     color: #FFFFFF;
-    background-image: url('/images/sunset.jpg');
     background-position: right;
     background-repeat: no-repeat;
     height: 55px;
     text-align: center;
     padding-top: 0.5em;
+    font-size: 3em;
+    letter-spacing: 0.25em;
   }
 
   nav {
     font-weight: bold;
-    padding: 0.5em;
-    text-align: center;
+    padding: 0;
+    width: 160px;
+    float: left;
+    font-size: 1.2em;
+    position: fixed;
+  }
+
+  nav ul {
+    list-style: none;
+    padding-left: 1em;
+  }
+
+  nav a:link {
+    color: #5C7FA3; /*5C7FA3*/
+  }
+  
+  nav a:visited {
+    color: #344873; /*344873*/
+  }
+  
+  nav a:hover {
+    color: #A52A2A; /*A52A2A*/
   }
 
   nav a {
@@ -38,6 +70,9 @@ header {
     padding-left: 2em;
     padding-right: 2em;
     display: block;
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    overflow: auto;
   }
 
   h2 {
@@ -64,6 +99,9 @@ header {
     font-style: italic;
     text-align: center;
     padding: 1em;
+    background-color: #FFFFFF;
+    margin-left: 170px;
+   
   }
 
   #wrapper { /* This is an id */
@@ -74,6 +112,7 @@ header {
     min-width: 960px;
     max-width: 2048px;
     box-shadow: 5px 5px 6px #0b0b0b;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
   }
 
   #homehero {
@@ -81,6 +120,7 @@ header {
     background-image: url('/images/coast.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 170px;
   }
 
   #yurthero {
@@ -88,6 +128,7 @@ header {
     background-image: url('/images/yurt.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 170px;
   }
 
   #trailhero {
@@ -95,4 +136,25 @@ header {
     background-image: url('/images/trail.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 170px;
+  }
+
+  universal {
+    box-sizing: border-box;
+  }
+
+  section {
+    float: left;
+    width: 25%; /*33%*/
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  #footeralign1{ /*added to align the footer for the yurts page*/
+    margin-right: 170px;
+    margin-top: 200px;
+  }
+
+  #footeralign2{ /*added to align the footer on the activities page*/
+    margin-right: 170px;
   }
