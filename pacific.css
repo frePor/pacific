@@ -219,7 +219,7 @@
 
 @media(min-width:1024px){
   body{
-    linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
   }
 
   nav ul{
