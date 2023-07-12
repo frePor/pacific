@@ -222,6 +222,11 @@ textarea{
   background-repeat: no-repeat;
 }
 
+video{
+  float: right;
+  margin: 2em;
+}
+
 @media(min-width: 600px){
   h1{
     font-size: 2em;
