@@ -5,7 +5,14 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="pacific.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+        <script>
+            function getLastModifiedDate() {
+                var date = new Date(document.lastModified);
+                var formattedDate = date.toDateString();
+                document.getElementById("lastModified").innerText = "This page was last modified on: " + formattedDate;
+            }
+        </script>
+     </head>
     <body>
      
         <header><h1><a href="/index.html">Pacific Trails Resort</a></h1></header>
@@ -45,12 +52,18 @@
                 <span id="desktop">888-555-5555</span>
             </div>
             <footer>
-                <p>Copyright © 2020 Pacific Trails Resort <br>   
+                <p>Copyright © 2020 Pacific Trails Resort    
                             freddie@porter.com
+                            
+                           <div id="lastModified"></div>
                 </p>
             </footer>
         </main>
         </div>
+        
+        <script>
+            getLastModifiedDate();
+        </script>
     </body>
 </html>
 
